@@ -1,0 +1,7 @@
+#bookinstance_list ListView
+<h1>Welcome to your Profile</h1>
+<h2>Here are your books checked out:</h2>
+
+{% for book  in  bookinstance_list %}
+    <p>{{book}}</p>
+{% endfor %}
